@@ -1,0 +1,9 @@
+/target
+/openmeta-data
+/openmeta-demo
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+.DS_Store
+test_snapshots/

@@ -1,0 +1,17 @@
+[package]
+name = "checkpoint-anchor"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish = false
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+doctest = false
+
+[dependencies]
+soroban-sdk = "29"
+
+[dev-dependencies]
+soroban-sdk = { version = "29", features = ["testutils"] }
