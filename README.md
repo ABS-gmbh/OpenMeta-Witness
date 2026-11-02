@@ -37,6 +37,16 @@ checkpoint is caught when the witnesses compare.
 
     cargo test --workspace
 
+## AI use
+
+Most of this proof of concept was generated with Claude Code under our
+direction. We did the literature research and defined the requirements,
+architecture and technical goals.
+
+From here on, all new code, documentation, specifications and evaluations
+funded by NLnet will be written by the team without generative AI. Any AI
+assistance will be limited to read-only code analysis and review.
+
 ## License
 
 Apache-2.0
