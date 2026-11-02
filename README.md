@@ -8,6 +8,8 @@ log, the log operator signs checkpoints, and witnesses verify each new
 checkpoint against the last one they saw. If the operator shows different
 witnesses different histories, comparing their observations exposes it.
 
+![Roles and data flow](assets/architecture.svg)
+
 Not production software.
 
 ## Build
